@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #3498db;
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --button-color: #000000;
+    --button-text-color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+button {
+    background-color: var(--button-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.dark {
+    --bg-color: #1e1e1e;
+    --text-color: #ffffff;
+    --button-color: #ffffff;
+    --button-text-color: #000000;
+}
+
+.colorful {
+    --bg-color: var(--primary-color);
+    --text-color: #ffffff;
+    --button-color: #ffffff;
+    --button-text-color: #000000;
+}
